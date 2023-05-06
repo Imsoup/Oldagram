@@ -1,0 +1,87 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: hsl(0, 5%, 68%);
+    font-family: 'Source Sans Pro', sans-serif;  
+}
+
+/* Navigation */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid hsl(0, 5%, 68%); 
+}
+
+.profile {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.logo {
+    width: 127px;
+    height: 33px;
+}
+
+/*Typography*/
+
+span {
+    font-weight: 400;
+    font-size: 12px
+}
+
+h3{
+    font-size: 13px;
+}
+
+/*Layout*/
+
+.oldagram-container {
+    background: #EDEDED;
+    width: 375px;
+    height: 1767px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    width: 348px;
+    height: 50px;
+}
+
+.profile-img {
+    margin: 10px;
+}
+
+.profile-img {
+    margin-left: 7px;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+}
+span {
+    display: block;
+    
+}
+.main-img {
+    width:375px;
+    height:375px;
+    border-radius: 5px;
+}
+
+.footer-container {
+    margin: 21px 16px 19px 10px;
+}
+
+/*Utility */
+
+.liked {
+    filter: invert(14%) sepia(100%) saturate(7495%) hue-rotate(6deg) brightness(113%) contrast(116%);
+    
+  }
